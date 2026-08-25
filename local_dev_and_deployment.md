@@ -41,7 +41,7 @@
 4. Check the browser console and WP Engine errors to be sure no errors have been introduced.
 5. Check all site functionality that could be affected by your changes.
 6. When your changes are ready for production, follow the same steps but be sure to create WP Engine backup beforehand at `https://my.wpengine.com/installs/SITENAME/backup_points`.
-7. If a site ever goes down upon deployment, immediately `@here` mention the relevant slack channel and directors/developers and wait for their input. Almost always the next step will be simply reverting the code changes via GitPush or restoring from the previous WP Engine backup point and then diagnosing issues on staging/locally/via logs.
+7. If a site ever goes down upon deployment, immediately `@here` mention the relevant slack channel and directors/senior developers and wait for their input. Almost always the next step will be simply reverting the code changes via GitPush or restoring from the previous WP Engine backup point and then diagnosing issues on staging/locally/via logs.
 8. WP Engine's full cache setup includes CDN edge caching of full pages as well as database query object caches. Because of this it may take a few minutes to see your changes on the live site.
 
 Other Resources: https://wpengine.com/support/development-workflow-best-practices/
