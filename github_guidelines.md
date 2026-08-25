@@ -6,6 +6,7 @@ These guidelines apply to internal developers and external development partners 
 - Avoid committing directly to `main` once a repository is past its early setup phase and has become a collaborative dev project.
 - Do not commit credentials, secrets, database exports, or production data. Private API keys should be used only server-side. They may be stored separately in each environment's `wp-config.php`, which should be excluded from Git.
 - PR authors and reviewers should give and receive feedback constructively and with an open mind. Focus comments on the code, explain the reasoning behind suggestions, and treat the review as a collaborative conversation.
+- Approval of larger or more complex PRs should include a note explaining the reasoning behind the approval or aspects that were tested by the reviewer.
 
 ## Creating a Pull Request
 See [here](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/) if you are unfamiliar with pull requests. 
