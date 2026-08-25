@@ -21,7 +21,7 @@
 9. Visit the local site's /wp-admin panel, add the WP Migrate plugin, and import the database, making sure URLs are find/replaced appropriately.
 10. Overwrite the local site's `/wp-content/uploads` directory with the exported media uploads from the production site.
 11. Ensure the appropriate plugins and theme are activated.
-12. Treat the prod database exports as sensitive production data and never commit them to git.
+12. Confirm that .gitignore excludes database exports and wp-content/uploads/. These are typically ignored by default, but never force-add them or commit production data to Git.
 
 
 ## Deploying Changes to a Site via WP Engine GitPush
