@@ -44,7 +44,7 @@ Use BEM syntax wherever possible:
 ### General Guidelines
 
 - Write default desktop styles first, followed by responsive media-query sections in descending breakpoint order. If an existing project uses a different convention, follow it rather than mixing approaches.
-- Prefer `rem` units over `px` for typography, spacing, and component dimensions. Reserve pixels for details that require precise values regardless of viewport.
+- Use `rem` units over `px` for typography, spacing, and component dimensions. Reserve pixels for details that require precise values regardless of viewport.
 - Create or use existing Sass variables for colors, spacing, typography, and breakpoints instead of hardcoded values.
 - Do not use `!important`. Resolve conflicts through appropriate selector specificity, source order, or component structure.
 - Avoid styling with IDs.
